@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Elements</title>
+    <link rel="stylesheet" href="..//assets/css/css-table.css">
+</head>
+<body>
+    <!-- Table Element -->
+    <h2>Table 1</h2>
+    <table class="table-1">
+        <!-- tr = table row -->
+        <tr>
+            <!-- td = table data = column-->
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+        </tr>
+        <tr>
+            <td>data 4</td>
+            <td>data 5</td>
+            <td>data 6</td>
+
+        </tr>
+        <tr>
+            <td>data 7</td>
+            <td>data 8</td>
+            <td>data 9</td>
+        </tr>
+    </table>
+
+    <h2>table 2</h2>
+    <table class="table-2">
+        <tr>
+            <!-- th = table heading -->
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email Address</th>
+        </tr>
+        <tr>
+            <td>Steve Jobs</td>
+            <td>60</td>
+            <td>California, Los Angeles</td>
+        </tr>
+        <tr>
+            <td>Naruto Shippuden</td>
+            <td>26</td>
+            <td>Tokyo, Tokyo Japan</td>
+        </tr>
+
+    </table>
+    <h2>Table 3</h2>
+    <table class="empty-cells">
+        <thead>
+            <!-- thead = table header section -->
+            <tr>
+                <th></th>
+                <th>Second Week</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- tbody = table body section -->
+            <tr>
+                <td>200</td>
+                <td>400</td>
+                <td>450</td>
+            </tr>
+            <tr>
+                <td>300</td>
+                <td>350</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- tfoot = table footer section -->
+            <tr>
+                <th>500</th>
+                <th>750</th>
+                <th>900</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <h2>Table 4: using colspan</h2>
+    <table class="table-4">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact number</th>
+            
+            
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>635547988</td>
+            <td>789890983</td>
+        </tr>
+        <tr>
+            <td>Michael Jackson</td>
+            <td>7897867687</td>
+            <td>7879873997</td>
+        </tr>
+    </table>
+    <h2>Table 5 : using row span</h2>
+    <table class="table-5">
+        <tr>
+            <th>Name</th>
+            <td>Bill Gates</td>
+            <td>Steve Jobs</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Contact Number</th>
+            <td>67869893480804</td>
+            <td>78978973676839</td>
+        </tr>
+        <tr>
+            <!-- <th></th> -->
+            <td>78979870788089</td>
+            <td>79870878673687</td>
+        </tr>
+
+    </table>
+</body>
+</html>

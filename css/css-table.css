@@ -1,0 +1,65 @@
+.table-1{
+    width: 300px;
+    height: 250px;
+    color: tomato;
+    font-size: 20px;
+    text-align:center ;
+    border:1px  solid black;
+
+
+}
+.table-1 td{
+    border:1px solid tomato ;
+}
+
+.table-2{
+    width: 100%;
+    height: 300px;
+    border:1px dashed blue  ;
+}
+
+.table-2 th{
+    border: 1px dashed green;
+    font-size:25px ;
+    text-transform:uppercase ;
+}
+
+.table-2 td{
+    border:2px dashed red ;
+    text-align: right;
+}
+
+.empty-cells{
+    width: 30%;
+    height: 250px;
+    border: 1px solid red;
+    empty-cells: hide;
+}
+
+.empty-cells td, .empty-cells th{
+    border: 1px sold red;
+}
+
+.table-4{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-collapse: separate;
+    border-collapse: collapse;
+}
+.table-4 td, .table-4 th{
+    border: 1px solid black;
+}
+
+.table-5{
+    width: 500px;
+    height: 350px;
+    border: 1px solid purple;
+    border-spacing: 15px 5px;
+    border-spacing: 20px;
+    text-align: center;
+}
+
+.table-5 td, .table-5 th{
+    border: 1px solid purple;
+}

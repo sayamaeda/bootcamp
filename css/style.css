@@ -1,0 +1,40 @@
+.external-css{
+    background-color: aqua;
+}
+
+/* Selectors */
+
+*{
+    /* universal selector */
+    text-decoration: underline;
+    color: green;
+}
+#higher-priority{
+    background-color: purple;
+}
+/* element */
+p{
+    background-color: gray;
+}
+
+/* class = . */
+.para{
+    color: red;
+}
+
+/* id = # */
+.priority{
+    background-color: firebrick;
+}
+
+#special{
+    color: white;
+}
+
+h2{
+    background-color: teal;
+}
+
+h2{
+    background-color: pink;
+}

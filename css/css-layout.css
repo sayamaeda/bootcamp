@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    box-sizing: border-box; 
+}
+.float-left{
+    border: 2px solid red;
+    float: left;
+    
+    /* float : right */
+
+    width: 25%;
+
+}
+
+.float-right{
+    border: 2px solid blue;
+    
+    float: right;
+    /* float : left */
+    width: 25%;
+
+}
+
+.clear-float{
+    border: 2px solid green;
+    /* clear: left; */
+    clear: right;
+    clear: both;
+
+}
+
+.content-box{
+    border: 10px solid purple;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.border-box{
+    border: 10px solid yellowgreen;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    /* box-sizing: border-box; */
+}
+
+/* 
+
+Position Property 
+offset properties - to move the element
+ left:0;
+ right:;
+ top:0;
+ bottom:;
+
+ z-index: - to + value --adjusting the layer order of the positioned elements.
+
+*/
+
+.static{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: static;
+    /* default -- doesn't move the element*/
+    left: 250px;
+}
+
+.relative{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    background-color: blue;
+    z-index: 1;
+}
+
+.parent-position{
+    width: 400px;
+    height: 400px;
+    border: 2px solid gray;
+    position: relative;
+    background-color: gray;
+    z-index: 3;
+}
+.absolute-position{
+    border: 2px solid purple;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.fixed{
+    width: 200px;
+    height: 200px;
+    border: 2px solid tomato;
+    position: fixed;
+    right: 200px;
+    bottom: 50px;
+    background-color: tomato;
+    z-index: 2;
+}
+/* display properties */
+
+.inline{
+    border: 1px solid red;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: inline;
+}
+
+.block{
+    border: 2px solid green;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.inline-block{
+    border: 1px solid purple;
+    width: 300px
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: teal;
+    display: block;
+    display: inline-block;
+    /* display: none; */
+}

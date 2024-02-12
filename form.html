@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+</head>
+<body>
+    <!-- Form Elements -->
+    <h2>Sample Form</h2>
+    <form action="https://kredo.jp" method="get">
+      <label for="fullname">Full Name</label>
+      <input type="text" name="fullname" id="fullname" >
+
+      <input type="submit" name="btn_submit" value="Send"> 
+    </form>
+
+    <h2>Registration Form</h2>
+    <form action="" method="get">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="fisrtname" required>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname">
+
+        <label for="email_address">Email Address</label>
+        <input type="email" name="email_address" id="email_address" placeholder="your_email_name@gmail.com">
+
+        <label for="password">Password</label>
+        <input type="password" name="security_code" id="password">
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="60">
+
+        <label for="birthday">Birth Date</label>
+        <input type="date" name="submit" value="Register">
+
+        <!-- radio and checkbox button -->
+        <div>
+            <p>Please choose your favorite music genre:</p>
+            <input type="radio" name="music" value="pop" id="pop">
+            <label for="pop">POP</label>
+
+            <input type="radio" name="music" value="rock" id="rock">
+            <label for="rock">ROCK</label>
+
+            <input type="radio" name="music" value="jazz" id="jazz">
+            <label for="jazz">JAZZ</label>
+        </div>
+
+        <div>
+            <p>Please choose your favorite food/s:</p>
+
+            <input type="checkbox" name="food" value="ramen" id="ramen">
+            <label for="ramen">RAMEN</label>
+
+            <input type="checkbox" name="food" value="sushi" id="suhi">
+            <label for="sushi">SUSHI</label>
+
+            <input type="checkbox" name="food" value="curry" id="curry">
+            <label for="curry">CURRY</label>
+        </div>
+
+        <div>
+            <!-- uplaod file -->
+            <label for="photo">Uplpad your photo</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+
+        <div>
+            <!-- doropdown listbox -->
+            <label for="device">What is your device?</label>
+            <select name="device" id="device" multiple>
+                <option value="macbook">Macbook</option>
+                <option value="ipad">ipad</option>
+                <option value="iphone">iphone</option>
+                <option value="tablet">tablet</option>
+            </select>
+        </div>
+
+        <div>
+            <!-- commnet box -->
+            <label for="commnets">Comments</label>
+            <textarea name="comments" id="comments" cols="10" rows="5"></textarea>
+
+        </div>
+
+        <!-- buttons -->
+        <input type="submit" name="submit" value="Register">
+
+        <button type="submit" name="submit">SEND</button>
+
+    </form>
+</body>
+</html>
